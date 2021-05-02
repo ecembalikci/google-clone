@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linking to Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="color: red; text-align:left;">Linking to</h1>
+        <a href="index.html">
+            <img class="center" src="img/googlebeta.jpg" alt="Google">
+        </a>
+    </header>
+    <p>
+        If you would like to allow Google searches from your web page, we welcome you to use the code snippet below for that purpose. 
+    </p>
+    <p>You can make any reasonable modification to the snippet, such as taking out the centering code, making the text box wider or narrower, or changing the background color (note, however, that the background for the Google logo is white, not transparent).</p>
+    <p>Here is the code:</p>
+    <pre>
+        &lt;!-- Search Google! --&gt;
+        &lt;center&gt;
+        &lt;FORM method=GET action=http://www.google.com/search&gt;
+        &lt;TABLE bgcolor="#FFFFFF"&gt;&lt;tr&gt;&lt;td&gt;
+        &lt;A HREF="http://www.google.com/"&gt;
+        &lt;IMG SRC="http://www.google.com/logos/google40.jpg" border="0" ALT="Google!" align="middle"&gt;&lt;/A&gt;
+        &lt;INPUT TYPE=text name=q size=31 maxlength=255 value=""&gt;
+        &lt;INPUT type=submit name=sa VALUE="Google Search"&gt;
+        &lt;/TABLE&gt;
+        &lt;/FORM&gt;
+        &lt;/center&gt;
+        &lt;!-- Search Google! --&gt;
+    </pre>
+    <p>and here is what it looks like:</p>
+    <a href="index.html">
+        <img src="img/google40.jpg" alt="Google">
+    </a>
+    <input class="searchbar" type="text" size="40"/>
+    <button type="button">Google Search</button>
+    <br>
+    <p>If you prefer, instead of using the above search box, you can place a link to 
+        <a href="index.html">Google</a>
+        We have a lovely 
+        <a href="logos.html">assortment of pictures</a>
+         that you can use for this purpose; however, you may feel free to use the picture of your choice.
+    </p>
+    <footer style="text-align: center">
+        <small>Copyright &copy;1998 Google Inc.</small>
+      </footer>
+</body>
+</html>

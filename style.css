@@ -1,0 +1,39 @@
+.center {
+    padding: 5px;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+.img {
+    display: block;
+    margin: auto;
+    width: 40%;
+  }
+
+#left {
+    
+    float:left; 
+    width:35%;
+    height: 80px;
+ 
+}
+#middle{
+    
+    float:center; 
+    width:25%;
+    height: 80px;
+   
+}
+#right{
+   
+    float: right;
+    width:35%;
+    height: 80px;
+}
+.table{
+  
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  text-align: left;
+  padding: 8px;
+}
